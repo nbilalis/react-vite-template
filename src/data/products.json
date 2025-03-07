@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Super-fast Laptop",
+    "imageUrl": "https://picsum.photos/300/400",
+    "releaseDate": "2023-01-01"
+  },
+  {
+    "name": "Stylish Smartphone",
+    "description": "A high-performance laptop"
+  },
+  {
+    "name": "Smartwatch",
+    "description": "A smartwatch with a lot of features",
+    "releaseDate": "2023-01-01"
+  }
+]
