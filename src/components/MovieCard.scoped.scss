@@ -1,0 +1,52 @@
+.movie-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  width: 15em;
+}
+
+h3 {
+  margin: 0 0 0.5em;
+}
+
+p {
+  margin: 0;
+
+  & + p {
+    margin-top: 0.5em;
+  }
+}
+
+img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.genre {
+  background-color: #3498db;
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 0.5em;
+  padding: 0.25em 0.5em;
+}
+
+.like-button {
+  background-color: #e74c3c;
+  border: 1px solid #e74c3c;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  padding: 0.25em 1em;
+  margin-left: 0.5em;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: #c0392b;
+  }
+}
